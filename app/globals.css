@@ -3,7 +3,12 @@
   line-height: 1.6;
   font-weight: 400;
   color: #0f172a;
-  background: radial-gradient(circle at 10% 20%, #eef2ff 0, #f8fafc 30%, #ffffff 60%);
+  background: radial-gradient(
+    circle at 10% 20%,
+    #eef2ff 0,
+    #f8fafc 30%,
+    #ffffff 60%
+  );
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,7 +26,7 @@ body {
   text-align: right;
 }
 
-.page {
+gkjnk .page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 28px 20px 64px;
@@ -423,7 +428,8 @@ body {
   text-decoration: none;
   border: 1px solid transparent;
   cursor: pointer;
-  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease, background 150ms ease;
+  transition: transform 150ms ease, box-shadow 150ms ease,
+    border-color 150ms ease, background 150ms ease;
   font-size: 0.95rem;
   display: inline-flex;
   justify-content: center;
