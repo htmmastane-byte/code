@@ -1,0 +1,10 @@
+node_modules/
+node_modules_old_locked/
+.next/
+yarn-cache/
+.yarn-cache/
+yarn.lock.tmp
+.turbo/
+.vscode/
+dist/
+build/
